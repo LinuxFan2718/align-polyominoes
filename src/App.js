@@ -1,5 +1,5 @@
 import './App.css';
-import Board from './Board';
+import Game from './Game';
 import Footer from './Footer';
 
 // 14x14 board
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <header className='App-header'>
         <p>Align Polyminoes</p>
-        <Board />
+        <Game />
       </header>
       <Footer />
     </div>
